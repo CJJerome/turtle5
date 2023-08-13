@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Turtle Hatcheries in Sri Lanka</title> 
+    <link rel="stylesheet" href="international-telephone-input.css">
+    <link rel="stylesheet" href="Details.css">
+    
+   
+   
+   
+</head>
+
+<body >
+    <img src="images/Green-Sea-Turtle.jpg" class="pic1" alt="Green Turtle">
+
+
+    <div class="header">
+        
+        <a href="home.html" class="home">Home</a>
+        <h1 class="h1">Buy Tickets</h1>
+      </div>
+
+ <nav>
+
+   
+  <ul class="navbar">   
+
+   <li><a href="Tickets.html">Tickets</a></li> 
+   <li><a href="Details.html">Details</a> </li> 
+   <li><a href="Payment.html">Payment</a> </li> 
+   <li><a href="Confirmation.html">Confirmation</a></li> 
+ 
+  
+</ul>
+</nav>
+
+<br><br><br>
+
+<h2 id="h3">Enter your details</h2>
+
+<div class="container">
+<form id="myForm" >
+  <div class="row">
+    <div class="column">
+      <label for="full-name">Full Name (required):</label><br>
+      <input type="text" id="full-name" name="full-name" placeholder="Add a valid Full Name" required><br>
+      <small>Same as on your ID</small><br><br>
+    </div>
+
+    <label for="gender">Gender (optional)</label><br><br>
+     <input type="radio" name="gender" value="male" id="maleRadio">
+  <label for="maleRadio">Male</label><br>
+  <input type="radio" name="gender" value="female" id="femaleRadio">
+  <label for="femaleRadio">Female</label><br><br>
+
+    <div class="iti">
+      <label for="phone">Phone Number(required):</label>
+      <input type="tel" name="phone" placeholder="Enter mobile number">
+  </div>
+
+
+  </div>
+  <div class="row">
+    <div class="column">
+      <label for="email">Email (required):</label><br>
+      <input type="email" id="email" name="email" placeholder="Add a valid Email" required><br>
+      <small>We'll send your tickets here</small><br><br>
+    </div>
+    <div class="column">
+      <label for="confirm-email">Confirm Email (required):</label><br>
+      <input type="email" id="confirm-email" name="confirm-email" placeholder="Add a valid Confirm Email" required><br>
+      <small>Just to ensure we've got this right</small><br><br>
+    </div>
+  </div>
+  <input type="submit" value="Submit" class="submit">
+</form> 
+
+<table id="summary-table" >
+  <caption>Summary Table</caption>
+  <tr>
+    <th>Date</th>
+    <td id="date-placeholder">2023-07-22</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td id="time-placeholder">08:00 AM - 11:00 AM</td>
+  </tr>
+  <tr>
+    <th>Duration</th>
+    <td id="duration-placeholder"></td>
+  </tr>
+  <tr>
+    <th>Tickets</th>
+    <td id="tickets-placeholder">11</td>
+  </tr>
+  <tr>
+    <th>SL Adult</th>
+    <td id="adult-price-placeholder">$8.00</td>
+  </tr>
+  <tr>
+    <th>SL Child</th>
+    <td id="child-price-placeholder">$6.00</td>
+  </tr>
+  <tr>
+    <th>Foreigner Adult</th>
+    <td id="foreigner-adult-price-placeholder">$10.00</td>
+  </tr>
+  <tr>
+    <th>Foreigner Child</th>
+    <td id="foreigner-child-price-placeholder">$10.00</td>
+  </tr>
+  <tr>
+    <th>Infant</th>
+    <td>$0.00</td>
+  </tr>  
+  <tr>
+    <th>Total Payable:</th>
+    <td id="total-payable-placeholder">$118.00</td>    
+  </tr>  
+</table>
+
+</div>
+<a href="Payment.html" class="button" >Continue with Purchase</a>
+
+
+<footer class="footer">
+    <p>&copy; 2023 TurtleHeart. All rights reserved.
+              Created by Sanjaya CB010211
+          
+             
+    </p>
+    </footer>
+   
+    <script src="Details.js"></script>
+    <script src="international-telephone-input.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Turtle Hatcheries in Sri Lanka</title>
+    <link rel="stylesheet" href="Tickets.css">
+  
+</head>
+
+<body>
+    <img src="images/Green-Sea-Turtle.jpg" class="pic1" alt="Green Turtle">
+
+
+    <div class="header">
+        
+        <a href="home.html" class="home">Home</a>
+        <h1 class="h1">Buy Tickets</h1>
+      </div>
+
+ <nav>
+
+   
+  <ul class="navbar">   
+
+   <li><a href="Tickets.html">Tickets</a></li> 
+   <li><a href="Details.html">Details</a> </li> 
+   <li><a href="Payment.html">Payment</a> </li> 
+   <li><a href="Confirmation.html">Confirmation</a></li> 
+ 
+  
+</ul>
+</nav>
+
+<br><br><br>
+
+<div class="reservation-date-container">
+  <label for="reservation-date" id="date">Reservation Date</label>
+  <input type="date" id="reservation-date" name="reservation-date">
+</div>
+
+
+<div class="booking-form-bg">
+<h2 class="h2">Number of Guests</h2>
+<form>
+<div id="booking-form2" >
+    <div class="form-group1">
+        <label for="adults">Adults (15+)</label>
+        <input type="number" id="adults" name="adults" value="0" min="0">
+    </div>
+    <div class="form-group1">
+        <label for="children">Children (5-14)</label>
+        <input type="number" id="children" name="children" value="0" min="0">
+    </div>
+    <div class="form-group1">
+        <label for="infants">Infants (Under 4)</label>
+        <input type="number" id="infants" name="infants" value="0" min="0">
+    </div>
+    <div class="form-group1">
+        <label for="foreigner-adults">Foreigner Adults (15+)</label>
+        <input type="number" id="foreigner-adults" name="foreigner-adults" value="0" min="0">
+    </div>
+    <div class="form-group1">
+        <label for="foreigner-children">Foreigner Children (5-14)</label>
+        <input type="number" id="foreigner-children" name="foreigner-children" value="0" min="0">
+    </div>
+</div>
+</form>
+</div>
+
+<form id="booking-form3">
+    <div class="form-group2">
+      <label for="duration" id="label1">Duration</label>
+      <select id="duration" name="duration" multiple size="11"> 
+        <option value="07:00-08:00">07:00 am - 08:00 am</option>
+        <option value="08:00-09:00">08:00 am - 09:00 am</option>
+        <option value="09:00-10:00">09:00 am - 10:00 am</option>
+        <option value="10:00-11:00" data-peak>10:00 am - 11:00 am (Peak)</option>
+        <option value="11:00-12:00">11:00 am - 12:00 pm</option>
+        <option value="12:00-13:00">12:00 pm - 01:00 pm</option>
+        <option value="13:00-14:00">01:00 pm - 02:00 pm</option>
+        <option value="14:00-15:00">02:00 pm - 03:00 pm</option>
+        <option value="15:00-16:00" data-peak>03:00 pm - 04:00 pm (Peak)</option>
+        <option value="16:00-17:00">04:00 pm - 05:00 pm</option>
+        <option value="17:00-18:00" data-peak>05.00 pm - 06.00 pm (Peak)</option>
+      </select>
+    </div>
+  
+
+  
+  </form>
+  
+  <table id="summary-table">
+    <caption>Summary Table</caption>
+    <tr>
+      <th>Date</th>
+      <td id="date-placeholder">2023-07-22</td>
+    </tr>
+    <tr>
+      <th>Time</th>
+      <td id="time-placeholder">08:00 AM - 11:00 AM</td>
+    </tr>
+    <tr>
+      <th>Duration</th>
+      <td id="duration-placeholder"></td>
+    </tr>
+    <tr>
+      <th>Tickets</th>
+      <td id="tickets-placeholder">11</td>
+    </tr>
+    <tr>
+      <th>SL Adult</th>
+      <td id="adult-price-placeholder">$8.00</td>
+    </tr>
+    <tr>
+      <th>SL Child</th>
+      <td id="child-price-placeholder">$6.00</td>
+    </tr>
+    <tr>
+      <th>Foreigner Adult</th>
+      <td id="foreigner-adult-price-placeholder">$10.00</td>
+    </tr>
+    <tr>
+      <th>Foreigner Child</th>
+      <td id="foreigner-child-price-placeholder">$10.00</td>
+    </tr>
+    <tr>
+      <th>Infant</th>
+      <td>$0.00</td>
+    </tr>  
+    <tr>
+      <th>Total Payable:</th>
+      <td id="total-payable-placeholder">$118.00</td>    
+    </tr>  
+  </table>
+  
+  
+  
+  
+<a href="Details.html" class="button">Continue with Purchase</a>
+
+
+
+ 
+<footer class="footer">
+    <p>&copy; 2023 TurtleHeart. All rights reserved.
+              Created by Sanjaya CB010211
+          
+             
+    </p>
+    </footer>
+    
+ <script src="Tickets.js"></script>
+</body>
+</html>

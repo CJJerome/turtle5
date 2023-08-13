@@ -1,0 +1,218 @@
+body{
+    background-color: beige; 
+    margin: 0;
+}
+.pic1{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+nav{
+    text-align: center;background-image: none;
+}
+ul.navbar {
+    
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#26e7e7;
+
+}
+
+ul.navbar li{
+    display: inline-block;
+}
+
+ul.navbar li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding:1em 1em;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.navbar li a:hover{
+    background-color:#75E01F;
+}
+
+.heading1,.heading2,.heading3,.heading4,.heading5{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.p1,.p2,.p3,.p4,.p5{
+    
+    text-align:justify;
+    font-size: 1.2em;
+    margin-left:30%;
+    margin-right:30%;
+    margin-bottom:8%;
+
+}
+
+.map-container{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.hawksbill1{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width:18%;
+}
+
+.hawksbill2{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width:26%;
+}
+
+.loggerhead1{
+    display: inline-block;
+    width:20%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loggerhead2{
+    display: inline-block;
+    width:27%;
+    height:auto;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.or1{
+    display: inline-block;
+    width:23.5%;
+    height:auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+.or2{
+    display: inline-block;
+    width:20%;
+    height:auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+.green1{
+    display: inline-block;
+    width:21%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.green2{
+    display: inline-block;
+    width:20%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.leather1,.leather2{
+    display: inline-block;
+    width:20%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.table{
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-bottom:50px; 
+    width:50%; 
+    text-align:center; 
+    border-collapse:collapse; 
+    border-color:rebeccapurple; 
+    border-width:3px; 
+    caption-side:top; 
+    font-size:20px;
+    border-collapse: collapse;
+    margin-bottom: 10%;
+}
+
+th,td{
+    border-color:rebeccapurple;
+    border-width:3px;
+    border-style:solid;
+}
+
+
+
+caption {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+
+  .footer{
+    text-align: center;
+    background-color: #8af159;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+
+@media screen and (max-width:600px) {
+
+    body {
+       
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul.navbar li {
+       display:block; 
+       width:auto; 
+    }
+    .hawksbill1,.hawksbill2,.loggerhead1,.loggerhead2,.or1,.or2,.green1,.green2,.leather1,.leather2{
+       width:100%; 
+       height:auto; 
+    }
+    .p1, .p2, .p3,.p4,.p5 {
+        
+       margin-left:0; 
+       margin-right:0; 
+       display: block;
+    }
+    .table {
+        width: 100%;
+        table-layout: fixed;
+    }
+    .table th,
+    .table td {
+        font-size: 14px;
+        padding: 5px;
+        word-wrap: break-word;
+    }
+    .table img {
+        max-width: 100%;
+        height: auto;
+    }
+ }
+

@@ -1,0 +1,127 @@
+body{
+    background-color: beige; 
+    margin: 0;
+}
+.pic1{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #8af159;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.home{
+    padding-left: 2em;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.h1{
+    padding-left: 42%;
+    
+}
+nav{
+    text-align: center;background-image: none;
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #26e7e7;
+    width: 100%;
+}
+
+ul.navbar li{
+    display: inline-block;
+}
+
+ul.navbar li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding:1em 1em;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.navbar li a:hover{
+    background-color:#75E01F;
+}
+.confirmation{
+    text-align: center;
+
+}
+.text{
+    text-align: center;
+    font-size: large;
+}
+#summary-table{
+   
+    margin-top:50px; 
+    margin-left: 25%;
+    width:50%; 
+    text-align:center; 
+    border-collapse:collapse; 
+    border-color:rebeccapurple;  
+    caption-side:top; 
+    font-size:20px;
+    border-collapse: collapse;
+    margin-bottom: 10%;
+
+}
+
+th,td{
+    border-color:rebeccapurple;
+    border-width:2px;
+    border-style:solid;
+}
+caption {
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+
+.footer{
+    text-align: center;
+    background-color: #8af159;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media  screen and (max-width: 600px) {
+    ul.navbar li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .h1 {
+        padding-left:25%;
+      }
+      
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    ul.navbar li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .h1 {
+        padding-left:25%;
+      }
+      
+   
+  }

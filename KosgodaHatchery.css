@@ -1,0 +1,164 @@
+body{
+    background-color: beige; 
+    margin: 0;
+}
+.pic1{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+nav{
+    text-align: center;background-image: none;
+}
+ul.navbar {
+    
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#26e7e7;
+
+}
+
+ul.navbar li{
+    display: inline-block;
+}
+
+ul.navbar li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding:1em 1em;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.navbar li a:hover{
+    background-color:#75E01F;
+}
+
+.container{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    
+}
+
+.H1 {
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes slide {
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0);}
+  }
+  
+.H1,.H2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.P1,.P2,.P3,.P4{
+    float: right;
+    text-align:justify;
+    font-size: 1.2em;
+    margin-left:30%;
+    margin-right:30%;
+    margin-bottom:8%;
+
+}
+
+
+
+.H3,.H4,.H5{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.img2{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width:20%;
+}
+
+.night{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width:23%;
+   
+}
+
+.img3,.img4{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width: 23%;
+}
+
+.container2{
+    text-align: center;
+}
+
+.map-container {
+    text-align: center;
+  }
+  
+  .map-container iframe {
+    display: inline-block;
+  }
+
+.footer{
+    text-align: center;
+    background-color: #8af159;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 300px;
+}
+
+@media screen and (max-width : 600px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul.navbar li {
+        display : block ;
+        width : auto ;
+    }
+    ul.navbar li a {
+        display : block ;
+        width : auto ;
+    }
+    .img2, .night, .img3, .img4 {
+        width : 100% ;
+    }
+    .P1, .P2, .P3, .P4 {
+        float : none ;
+        margin-left : 5% ;
+        margin-right : 5% ;
+    }
+    .footer {
+        font-size : 16px ; 
+    }
+   }
+
+   
+ 
+    
+
+ 

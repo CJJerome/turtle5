@@ -1,0 +1,186 @@
+body{
+    background-color: beige; 
+    margin: 0;
+}
+.pic1{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+nav{
+    text-align: center;background-image: none;
+}
+ul.navbar {
+    
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#26e7e7;
+
+}
+
+ul.navbar li{
+    display: inline-block;
+}
+
+ul.navbar li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding:1em 1em;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.navbar li a:hover{
+    background-color:#75E01F;
+}
+
+
+
+.container{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.H1,.H2,.H3,.H4{
+   text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
+   font-size: 26px;
+}
+
+
+
+.p1,.p2,.p3,.p4{
+    float: right;
+    text-align:justify;
+    font-size: 1.2em;
+    margin-left:30%;
+    margin-right:30%;
+    margin-bottom:8%;
+}
+
+
+.egg{
+    
+    display: inline-block;
+    width:23%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.food{
+   
+    display: inline-block;
+    width:16.2%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.shell{
+    display: inline-block;
+    width:16%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.net{
+    display: inline-block;
+    width:22%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+ .beach{
+    display: inline-block;
+    width:22%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+ .plastic{
+    display: inline-block;
+    width:22%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+ 
+
+ .button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #430bc5;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 0 10px;  /* Add  Margin for space between two buttons*/
+}
+
+.button:hover {
+  background-color: #7d71e4;
+}
+
+
+ .footer{
+    clear: both;
+    text-align: center;
+    background-color: #8af159;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    
+}
+
+@media screen and (max-width : 600px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul.navbar li {
+        display : block ;
+        width : 100% ;
+    }
+    ul.navbar li a {
+        display : block ;
+        width : 100% ;
+    }
+    .egg, .food, .shell, .net, .beach, .plastic {
+        width : 100% ;
+    }
+    .p1, .p2, .p3, .p4 {
+        float : none ;
+        margin-left : 5% ;
+        margin-right : 5% ;
+    }
+    .footer {
+        font-size : 16px ; /* Reduce the font size */
+    }
+   }
+
+   
+
+ 
+    

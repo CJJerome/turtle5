@@ -1,0 +1,154 @@
+body{
+    background-color: beige; 
+    margin: 0;
+}
+.pic1{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+nav{
+    text-align: center;background-image: none;
+}
+ul.navbar {
+    
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#26e7e7;
+    width: 100%;
+
+}
+
+ul.navbar li{
+    display: inline-block;
+}
+
+ul.navbar li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding:1em 1em;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.navbar li a:hover{
+    background-color:#75E01F;
+}
+
+
+
+.H1,.H2,.H3,.H4,.H5{
+   text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
+   font-size: 24px;
+}
+
+.container{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    
+
+}
+
+.container2{
+    text-align: center;
+}
+.img1{
+    width:auto;
+    height:30em;
+    
+}
+
+.P1,.P2,.P3{
+    text-align:justify;
+    font-size: 1.2em;
+    margin-left:30%;
+    margin-right:30%;
+    margin-bottom: 100px;
+}
+
+.image-container{
+    text-align: center;
+}
+
+.img2{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width:20%;
+}
+
+.img5{
+        display:inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        height:auto;
+        width: 17%;
+
+}
+ .container3,.img3{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+.OL,.UL{
+    margin-bottom: 10%;
+    margin-left: 40%;
+    margin-top: 5%;
+    text-align: justify;
+    font-size: 20px;
+    list-style-position: inside;
+    width: 17%;
+}
+.footer{
+    text-align: center;
+    background-color: #8af159;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+    
+@media screen and (max-width:600px) {
+
+    body {
+        
+        padding:5px;
+    }
+    
+    ul.navbar li {
+       display:block; 
+       width:auto; 
+    }
+    .img1, .img2, .img3, .img5 {
+       width:100%; 
+       height:auto; 
+    }
+    .P1, .P2, .P3 {
+       margin-left:0; 
+       margin-right:0; 
+    }
+
+    .OL, .UL {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        text-align: center;
+     }
+     
+ }
+ 
+
+
+ 

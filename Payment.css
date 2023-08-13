@@ -1,0 +1,251 @@
+body{
+    background-color: beige; 
+    margin: 0;
+}
+.pic1{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #8af159;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.home{
+    padding-left: 2em;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.h1{
+    padding-left: 42%;
+    
+}
+nav{
+    text-align: center;background-image: none;
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #26e7e7;
+    width: 100%;
+}
+
+ul.navbar li{
+    display: inline-block;
+}
+
+ul.navbar li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding:1em 1em;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+ul.navbar li a:hover{
+    background-color:#75E01F;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+form{
+    width: 60%;
+    margin-left: 5%;
+    max-width: 70%;
+}
+#summary-table {
+    width: 20%; 
+}
+#form-bg-color{
+    background-color: #26e7e7;
+    max-width:100%;
+   margin-left: 7%;
+    margin-top: 5%;
+    padding:20px 20px
+    
+}
+
+
+#paymentForm label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#paymentForm input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+#paymentForm input[type="text"]:focus {
+    border: 2px solid #555;
+}
+
+#payButton  {
+    background-color: #f44336;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none; 
+    color: black;
+}
+
+
+#payButton:hover {
+    background-color: #e57373;
+    text-decoration: none; 
+}
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #430bc5;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left:45%;  
+    margin-bottom: 5%;
+    margin-top: 15%;
+  }
+  
+  .button:hover {
+    background-color: #7d71e4;
+  }
+  
+#summary-table{
+   
+    margin-top:45px; 
+    width:50%; 
+    text-align:center; 
+    border-collapse:collapse; 
+    border-color:rebeccapurple;  
+    caption-side:top; 
+    font-size:20px;
+    border-collapse: collapse;
+    margin-bottom: 10%;
+
+}
+
+th,td{
+    border-color:rebeccapurple;
+    border-width:2px;
+    border-style:solid;
+}
+caption {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+
+.footer{
+    margin-top: 8%;
+    text-align: center;
+    background-color: #8af159;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media  screen and (min-width: 500px) and (max-width: 600px) {
+    ul.navbar li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .h1 {
+        padding-left:20%;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      #form-bg-color {
+        width: 100%;
+        padding: 20px; 
+        box-sizing: border-box; 
+      }
+    
+      #summary-table {
+        width: 100%;
+        margin-top: 10%;
+      }
+      .button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        max-width: 40%;
+    
+      }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    ul.navbar li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .h1 {
+        padding-left:27%;
+      }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      #form-bg-color {
+        width: 100%;
+        padding: 20px; 
+        box-sizing: border-box; 
+      }
+    
+      #summary-table {
+        width: 100%;
+        margin-top: 20px;
+      }
+      .button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        max-width: 30%;
+    
+      }
+   
+  }

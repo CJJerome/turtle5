@@ -1,0 +1,146 @@
+body{
+    background-color: beige; 
+    margin: 0;
+}
+.pic1{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+nav{
+    text-align: center;background-image: none;
+}
+ul.navbar {
+    
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#26e7e7;
+
+}
+
+ul.navbar li{
+    display: inline-block;
+}
+
+ul.navbar li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding:1em 1em;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.navbar li a:hover{
+    background-color:#75E01F;
+
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.map-container {
+    text-align: center;
+  }
+  
+  .map-container iframe {
+    display: inline-block;
+  }
+
+
+.H1,.H2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.P1,.P2,.P3,.P4{
+    
+    text-align:justify;
+    font-size: 1.2em;
+    margin-left:30%;
+    margin-right:30%;
+    margin-bottom:8%;
+
+}
+
+
+
+.H3,.H4,.H5{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+
+
+.img1{
+    display: inline-block;
+    width:25%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.img2{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width:25%;
+}
+
+.img3{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width:25%;
+}
+
+.footer{
+    text-align: center;
+    background-color: #8af159;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 10%;
+}
+
+@media screen and (max-width:600px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+
+    ul.navbar li {
+        display:block; 
+        width:auto; 
+    }
+    .img1, .img2, .img3 {
+        width : 100%;
+    }
+    .P1, .P2, .P3, .P4 {
+        margin-left : 5%;
+        margin-right : 5%;
+    }
+    .footer {
+        font-size : 16px; 
+    }
+    .map-container{
+        width: 100%;
+    }
+   }
+
+
+
+ 

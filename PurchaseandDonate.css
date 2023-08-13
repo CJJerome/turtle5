@@ -1,0 +1,187 @@
+body{
+    background-color: beige; 
+         
+}
+.pic1{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+nav{
+    text-align: center;background-image: none;
+}
+ul.navbar {
+    
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#26e7e7;
+
+}
+
+ul.navbar li{
+    display: inline-block;
+}
+
+ul.navbar li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding:1em 1em;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.navbar li a:hover{
+    background-color:#75E01F;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: none;
+    text-align: center;
+}
+
+th {
+    padding-bottom: 1em;
+    font-size: 1.3em;
+    
+
+}
+
+td {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+td button {
+    margin-top: 0.5em;
+    padding: 0.5em 1em;
+}
+
+.pin,.plushie,.shirt,.keychain{
+    height: auto;
+    width: 20em;
+}
+.postcard{
+    height: 20em;
+    width:20em;
+}
+
+.handbook{
+    height: auto;
+    width: 23em;
+}
+
+
+.head{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.h1{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2em;
+}
+form {
+    display: block;
+    margin-left: 40%;
+    width:30%;
+    background-color:aquamarine;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+
+ 
+  .button-container {
+    text-align: center;
+   
+    margin-top: 8%;
+  }
+  
+  .button {
+    
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #430bc5;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0 10px;  /* Add  Margin for space between two buttons*/
+  }
+  
+  .button:hover {
+    background-color: #7d71e4;
+  }
+  
+.footer{
+    text-align: center;
+    background-color: #8af159;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  
+    ul.navbar li {
+        display: block;
+        width: 100%;
+    }
+    ul.navbar li a {
+        display: block;
+        width: 100%;
+    }
+
+    
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    
+    .tablecont {
+        overflow-x: auto;
+    }
+    table {
+        width: 100%;
+    }
+    table, th, td {
+        padding: 5px;
+    }
+    td img {
+        max-width: 100%;
+        height: auto;
+    }
+   
+         form {
+        box-sizing: border-box;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        background-color: aquamarine;
+        padding: 20px;
+         font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+         }
+        
+        
+        
+    /* Footer */
+    .footer {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
+
+   
+ 
